@@ -10,7 +10,6 @@ ALLOWED_NAMES = re.compile(
     "^([A-Z0-9]|[A-Z0-9][A-Z0-9._-]*[A-Z0-9])$", re.IGNORECASE
 )
 
-
 # Restrict to already normalised package versions
 # From https://www.python.org/dev/peps/pep-0440/#appendix-b-parsing-version-strings-with-regular-expressions
 ALLOWED_VERSIONS = re.compile(
